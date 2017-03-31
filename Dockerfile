@@ -2,14 +2,14 @@
 ## MariaDB 10.2
 ##
 FROM centos:7
-MAINTAINER "cytopia" <cytopia@everythingcli.org>
+MAINTAINER "Herrmann Hinz" <tobias.hinz@gmail.com>
 
 
 ##
 ## Labels
 ##
 LABEL \
-	name="cytopia's MariaDB 10.2.4 Image" \
+	name="cytopia's MariaDB 10.2.4 Image (forked)" \
 	image="mariadb-10.2.4" \
 	vendor="herrmannhinz" \
 	license="MIT" \
