@@ -9,11 +9,11 @@ MAINTAINER "cytopia" <cytopia@everythingcli.org>
 ## Labels
 ##
 LABEL \
-	name="cytopia's MariaDB 10.2 Image" \
-	image="mariadb-10.2" \
-	vendor="cytopia" \
+	name="cytopia's MariaDB 10.2.4 Image" \
+	image="mariadb-10.2.4" \
+	vendor="herrmannhinz" \
 	license="MIT" \
-	build-date="2016-11-03"
+	build-date="2017-31-03"
 
 
 ##
