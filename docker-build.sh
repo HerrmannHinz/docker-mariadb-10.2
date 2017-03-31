@@ -31,4 +31,4 @@ DATE="$( date '+%Y-%m-%d' )"
 run "sed -i'' 's/build-date=\".*\"/build-date=\"${DATE}\"/g' Dockerfile"
 
 # Build Docker
-run "docker build -t cytopia/${NAME} ."
+run "docker build -t herrmannhinz/${NAME} ."
