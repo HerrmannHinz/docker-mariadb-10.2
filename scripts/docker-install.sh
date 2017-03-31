@@ -68,14 +68,14 @@ run "adduser ${MY_USER} -u ${MY_UID} -M -s /sbin/nologin -g ${MY_GROUP}"
 ###
 print_headline "2. Adding Repository"
 {
-	echo "# MariaDB 10.2 CentOS repository list - created 2016-10-30 14:42 UTC";
+	echo "# MariaDB 10.2.4 CentOS repository";
 	echo "# http://downloads.mariadb.org/mariadb/repositories/";
 	echo "[mariadb]";
 	echo "name = MariaDB";
-	echo "baseurl = http://yum.mariadb.org/10.2/centos7-amd64";
+	echo "baseurl = http://yum.mariadb.org/10.2.4/centos7-amd64";
 	echo "gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB";
 	echo "gpgcheck=1";
-} > /etc/yum.repos.d/mariadb-10.2.repo
+} > /etc/yum.repos.d/mariadb-10.2.4.repo
 
 
 
